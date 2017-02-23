@@ -62,7 +62,7 @@ def main():
     videos = []
     files = ["me_at_the_zoo", "videos_worth_spreading", "trending_today", "kittens"]
     print("Start of parsing")
-    ff = 3
+    ff = 0
     with open(files[ff] + ".in", 'r') as f:
         nVideos, nEndpoints, nRequests, nCaches, cacheSize = map(int, f.readline().split(' '))
         #print(nVideos, nEndpoints, nRequests, nCaches, cacheSize)
